@@ -1,0 +1,380 @@
+[Root]
+Most Recent Package=HOSPITAL MANAGEMENT SYSTEM
+
+
+[Package|HMS SETUP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup
+
+[Package|HMS SETUP|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HMS SETUP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HMS SETUP|Files Found]
+
+[Package|HMS SETUP|Files Released]
+
+[Package|HMS SETUP|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSDBRPT.DLL=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Windows\System32\inetcomm.dll=
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=
+
+[Package|HMS SETUP|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\COMDLG32.OCX=
+
+[Package|HMS SETUP|Files Added]
+
+[Package|HMS SETUP|Files Removed]
+
+[Package|HMS SETUP|Files In Project]
+C:\HMS\hms.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=Yes
+C:\Windows\System32\inetcomm.dll=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDBRPT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\COMDLG32.OCX=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|HMS SETUP|Configure Registry Files]
+Applicable=No
+
+[Package|HMS SETUP|Configure Remote Servers]
+Applicable=No
+
+[Package|HMS SETUP|Install Locations]
+C:\HMS\hms.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=$(AppPath)
+C:\Windows\System32\inetcomm.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDBRPT.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|HMS SETUP|Configure Shared Files]
+Applicable=Yes
+C:\HMS\hms.exe=No
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=No
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=No
+
+[Package|HMS SETUP|Distribution]
+Type=single
+Size=
+Title=hospital management system
+
+[Package|HMS SETUP|IconGroups]
+Group0=hospital management system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HMS SETUP|hospital management system]
+Icon1=hms.exe
+Title1=hospital management system
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HMS SETUP|Package]
+PackageFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup
+ProjectFolder=C:\HMS
+ServerSideCab=
+File1=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\setup.exe
+File2=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\Setup.Lst
+File3=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\hms.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HMS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup
+
+[Package|HMS|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HMS|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HMS|Files Found]
+
+[Package|HMS|Files Released]
+
+[Package|HMS|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSDBRPT.DLL=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Windows\System32\inetcomm.dll=
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=
+C:\Windows\System32\MSDE.DLL=
+
+[Package|HMS|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\COMDLG32.OCX=
+
+[Package|HMS|Files Added]
+
+[Package|HMS|Files Removed]
+
+[Package|HMS|Files In Project]
+C:\HMS\hms.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=Yes
+C:\Windows\System32\inetcomm.dll=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDBRPT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\COMDLG32.OCX=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\MSDE.DLL=Yes
+
+[Package|HMS|Configure Registry Files]
+Applicable=No
+
+[Package|HMS|Configure Remote Servers]
+Applicable=No
+
+[Package|HMS|Install Locations]
+C:\HMS\hms.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=$(AppPath)
+C:\Windows\System32\inetcomm.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDBRPT.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSDE.DLL=$(WinSysPath)
+
+[Package|HMS|Configure Shared Files]
+Applicable=Yes
+C:\HMS\hms.exe=Yes
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+
+[Package|HMS|Distribution]
+Type=single
+Size=
+Title=hospital management system
+
+[Package|HMS|Package]
+PackageFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup
+ProjectFolder=C:\HMS
+ServerSideCab=
+File1=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\setup.exe
+File2=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\Setup.Lst
+File3=C:\Users\HTECH SOLUTIONZ\Desktop\hmssetup\hms.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HMS|IconGroups]
+Group0=hospital management system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HMS|hospital management system]
+Icon1=hms.exe
+Title1=hospital management system
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hms setup
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Files Found]
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Files Released]
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSDBRPT.DLL=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Windows\System32\inetcomm.dll=
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=
+C:\Windows\System32\MSDE.DLL=
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\COMDLG32.OCX=
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Files Added]
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Files Removed]
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Files In Project]
+C:\HMS\hms.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=Yes
+C:\Windows\System32\inetcomm.dll=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDBRPT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\COMDLG32.OCX=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\MSDE.DLL=Yes
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Configure Registry Files]
+Applicable=No
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Configure Remote Servers]
+Applicable=No
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Install Locations]
+C:\HMS\hms.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=$(AppPath)
+C:\Windows\System32\inetcomm.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Program Files\Common Files\DESIGNER\MSDE.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDBRPT.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSDE.DLL=$(WinSysPath)
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Configure Shared Files]
+Applicable=Yes
+C:\HMS\hms.exe=Yes
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Distribution]
+Type=single
+Size=
+Title=hospital management system
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|IconGroups]
+Group0=hospital management system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|hospital management system]
+Icon1=hms.exe
+Title1=hospital management system
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HOSPITAL MANAGEMENT SYSTEM|Package]
+PackageFolder=C:\Users\HTECH SOLUTIONZ\Desktop\hms setup
+ProjectFolder=C:\HMS
+ServerSideCab=
+File1=C:\Users\HTECH SOLUTIONZ\Desktop\hms setup\setup.exe
+File2=C:\Users\HTECH SOLUTIONZ\Desktop\hms setup\Setup.Lst
+File3=C:\Users\HTECH SOLUTIONZ\Desktop\hms setup\hms.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
